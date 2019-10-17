@@ -23,19 +23,33 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "Dice Rolled",
             Toast.LENGTH_SHORT).show()
         val randomInt = Random().nextInt(6) + 1
-        textView2.text = randomInt.toString()
+        textView.text = randomInt.toString()
+        val randomInt1 = Random().nextInt(6) + 1
+        textView2.text = randomInt1.toString()
+        val randomInt2 = Random().nextInt(6) + 1
+        textView3.text = randomInt2.toString()
     }
     private fun countUp(){
-        val yeet = Integer.parseInt(textView2.text as String)
+        val yeet = Integer.parseInt(textView.text as String)
         if(yeet<6){
             val newYeet = yeet + 1
-            textView2.text = newYeet.toString()
+            textView.text = newYeet.toString()
         Toast.makeText(this, "Dice Up",
             Toast.LENGTH_SHORT).show()
-            }else {
-            Toast.makeText(this, "Maximum Number",
+            }
+        val yeet1 = Integer.parseInt(textView2.text as String)
+        if(yeet1<6){
+            val newYeet = yeet1 + 1
+            textView2.text = newYeet.toString()
+            Toast.makeText(this, "Dice Up",
                 Toast.LENGTH_SHORT).show()
         }
-
+        val yeet2 = Integer.parseInt(textView3.text as String)
+        if(yeet2<6){
+            val newYeet = yeet2 + 1
+            textView3.text = newYeet.toString()
+            Toast.makeText(this, "Dice Up",
+                Toast.LENGTH_SHORT).show()
+        }
     }
 }
