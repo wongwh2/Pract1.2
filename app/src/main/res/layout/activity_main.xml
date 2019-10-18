@@ -84,4 +84,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="78dp"
+        android:layout_height="258dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="89dp"
+        android:text="@string/btnLabel1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

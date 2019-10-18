@@ -4,5 +4,6 @@
     <string name="dice_2">1</string>
     <string name="dice_3">1</string>
     <string name="btnLabel">Roll</string>
+    <string name="btnLabel1">Reset</string>
     <string name="btnCount">Count Up</string>
 </resources>
